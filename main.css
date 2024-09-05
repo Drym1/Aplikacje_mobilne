@@ -1,0 +1,21 @@
+div {
+    flex-direction: row;
+    border: 1px;
+}
+
+
+#kol {
+    width: 100%;
+}
+
+
+#x {
+
+    width: 40%;
+    float: left;
+}
+
+#y {
+    width: 60%;
+    float: right;
+}
