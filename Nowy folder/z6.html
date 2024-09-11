@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="dane"></div>
+    <script>
+        const dane=document.querySelector('#dane');
+        
+        let text='<table>';
+        for(let i=0;i<10;i++){
+            text+='<tr><td>'+i+'</td><td>'+(i*i)+'</td></tr>';
+        }
+        text+='</table>';
+                
+        dane.innerHTML=text;
+    </script>
+</body>
+</html>
